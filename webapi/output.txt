@@ -1,0 +1,253 @@
+Attaching to webapi_api_1
+[36mapi_1  |[0m  * Serving Flask app "app" (lazy loading)
+[36mapi_1  |[0m  * Environment: production
+[36mapi_1  |[0m    WARNING: Do not use the development server in a production environment.
+[36mapi_1  |[0m    Use a production WSGI server instead.
+[36mapi_1  |[0m  * Debug mode: on
+[36mapi_1  |[0m  * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+[36mapi_1  |[0m  * Restarting with stat
+[36mapi_1  |[0m Traceback (most recent call last):
+[36mapi_1  |[0m   File "app.py", line 73, in <module>
+[36mapi_1  |[0m     app.run(host="0.0.0.0", port=80, debug=True)
+[36mapi_1  |[0m   File "/usr/local/lib/python3.7/site-packages/flask/app.py", line 943, in run
+[36mapi_1  |[0m     run_simple(host, port, self, **options)
+[36mapi_1  |[0m   File "/usr/local/lib/python3.7/site-packages/werkzeug/serving.py", line 988, in run_simple
+[36mapi_1  |[0m     run_with_reloader(inner, extra_files, reloader_interval, reloader_type)
+[36mapi_1  |[0m   File "/usr/local/lib/python3.7/site-packages/werkzeug/_reloader.py", line 332, in run_with_reloader
+[36mapi_1  |[0m     sys.exit(reloader.restart_with_reloader())
+[36mapi_1  |[0m   File "/usr/local/lib/python3.7/site-packages/werkzeug/_reloader.py", line 176, in restart_with_reloader
+[36mapi_1  |[0m     exit_code = subprocess.call(args, env=new_environ, close_fds=False)
+[36mapi_1  |[0m   File "/usr/local/lib/python3.7/subprocess.py", line 323, in call
+[36mapi_1  |[0m     with Popen(*popenargs, **kwargs) as p:
+[36mapi_1  |[0m   File "/usr/local/lib/python3.7/subprocess.py", line 775, in __init__
+[36mapi_1  |[0m     restore_signals, start_new_session)
+[36mapi_1  |[0m   File "/usr/local/lib/python3.7/subprocess.py", line 1522, in _execute_child
+[36mapi_1  |[0m     raise child_exception_type(errno_num, err_msg, err_filename)
+[36mapi_1  |[0m OSError: [Errno 8] Exec format error: '/app/app.py'
+[36mapi_1  |[0m  * Serving Flask app "app" (lazy loading)
+[36mapi_1  |[0m  * Environment: production
+[36mapi_1  |[0m    WARNING: Do not use the development server in a production environment.
+[36mapi_1  |[0m    Use a production WSGI server instead.
+[36mapi_1  |[0m  * Debug mode: on
+[36mapi_1  |[0m  * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+[36mapi_1  |[0m  * Restarting with stat
+[36mapi_1  |[0m Traceback (most recent call last):
+[36mapi_1  |[0m   File "app.py", line 73, in <module>
+[36mapi_1  |[0m     app.run(host="0.0.0.0", port=80, debug=True)
+[36mapi_1  |[0m   File "/usr/local/lib/python3.7/site-packages/flask/app.py", line 943, in run
+[36mapi_1  |[0m     run_simple(host, port, self, **options)
+[36mapi_1  |[0m   File "/usr/local/lib/python3.7/site-packages/werkzeug/serving.py", line 988, in run_simple
+[36mapi_1  |[0m     run_with_reloader(inner, extra_files, reloader_interval, reloader_type)
+[36mapi_1  |[0m   File "/usr/local/lib/python3.7/site-packages/werkzeug/_reloader.py", line 332, in run_with_reloader
+[36mapi_1  |[0m     sys.exit(reloader.restart_with_reloader())
+[36mapi_1  |[0m   File "/usr/local/lib/python3.7/site-packages/werkzeug/_reloader.py", line 176, in restart_with_reloader
+[36mapi_1  |[0m     exit_code = subprocess.call(args, env=new_environ, close_fds=False)
+[36mapi_1  |[0m   File "/usr/local/lib/python3.7/subprocess.py", line 323, in call
+[36mapi_1  |[0m     with Popen(*popenargs, **kwargs) as p:
+[36mapi_1  |[0m   File "/usr/local/lib/python3.7/subprocess.py", line 775, in __init__
+[36mapi_1  |[0m     restore_signals, start_new_session)
+[36mapi_1  |[0m   File "/usr/local/lib/python3.7/subprocess.py", line 1522, in _execute_child
+[36mapi_1  |[0m     raise child_exception_type(errno_num, err_msg, err_filename)
+[36mapi_1  |[0m OSError: [Errno 8] Exec format error: '/app/app.py'
+[36mapi_1  |[0m  * Serving Flask app "app" (lazy loading)
+[36mapi_1  |[0m  * Environment: production
+[36mapi_1  |[0m    WARNING: Do not use the development server in a production environment.
+[36mapi_1  |[0m    Use a production WSGI server instead.
+[36mapi_1  |[0m  * Debug mode: on
+[36mapi_1  |[0m  * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+[36mapi_1  |[0m  * Restarting with stat
+[36mapi_1  |[0m Traceback (most recent call last):
+[36mapi_1  |[0m   File "app.py", line 73, in <module>
+[36mapi_1  |[0m     app.run(host="0.0.0.0", port=80, debug=True)
+[36mapi_1  |[0m   File "/usr/local/lib/python3.7/site-packages/flask/app.py", line 943, in run
+[36mapi_1  |[0m     run_simple(host, port, self, **options)
+[36mapi_1  |[0m   File "/usr/local/lib/python3.7/site-packages/werkzeug/serving.py", line 988, in run_simple
+[36mapi_1  |[0m     run_with_reloader(inner, extra_files, reloader_interval, reloader_type)
+[36mapi_1  |[0m   File "/usr/local/lib/python3.7/site-packages/werkzeug/_reloader.py", line 332, in run_with_reloader
+[36mapi_1  |[0m     sys.exit(reloader.restart_with_reloader())
+[36mapi_1  |[0m   File "/usr/local/lib/python3.7/site-packages/werkzeug/_reloader.py", line 176, in restart_with_reloader
+[36mapi_1  |[0m     exit_code = subprocess.call(args, env=new_environ, close_fds=False)
+[36mapi_1  |[0m   File "/usr/local/lib/python3.7/subprocess.py", line 323, in call
+[36mapi_1  |[0m     with Popen(*popenargs, **kwargs) as p:
+[36mapi_1  |[0m   File "/usr/local/lib/python3.7/subprocess.py", line 775, in __init__
+[36mapi_1  |[0m     restore_signals, start_new_session)
+[36mapi_1  |[0m   File "/usr/local/lib/python3.7/subprocess.py", line 1522, in _execute_child
+[36mapi_1  |[0m     raise child_exception_type(errno_num, err_msg, err_filename)
+[36mapi_1  |[0m OSError: [Errno 8] Exec format error: '/app/app.py'
+[36mapi_1  |[0m  * Serving Flask app "app" (lazy loading)
+[36mapi_1  |[0m  * Environment: production
+[36mapi_1  |[0m    WARNING: Do not use the development server in a production environment.
+[36mapi_1  |[0m    Use a production WSGI server instead.
+[36mapi_1  |[0m  * Debug mode: on
+[36mapi_1  |[0m  * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+[36mapi_1  |[0m  * Restarting with stat
+[36mapi_1  |[0m Traceback (most recent call last):
+[36mapi_1  |[0m   File "app.py", line 73, in <module>
+[36mapi_1  |[0m     app.run(host="0.0.0.0", port=80, debug=True)
+[36mapi_1  |[0m   File "/usr/local/lib/python3.7/site-packages/flask/app.py", line 943, in run
+[36mapi_1  |[0m     run_simple(host, port, self, **options)
+[36mapi_1  |[0m   File "/usr/local/lib/python3.7/site-packages/werkzeug/serving.py", line 988, in run_simple
+[36mapi_1  |[0m     run_with_reloader(inner, extra_files, reloader_interval, reloader_type)
+[36mapi_1  |[0m   File "/usr/local/lib/python3.7/site-packages/werkzeug/_reloader.py", line 332, in run_with_reloader
+[36mapi_1  |[0m     sys.exit(reloader.restart_with_reloader())
+[36mapi_1  |[0m   File "/usr/local/lib/python3.7/site-packages/werkzeug/_reloader.py", line 176, in restart_with_reloader
+[36mapi_1  |[0m     exit_code = subprocess.call(args, env=new_environ, close_fds=False)
+[36mapi_1  |[0m   File "/usr/local/lib/python3.7/subprocess.py", line 323, in call
+[36mapi_1  |[0m     with Popen(*popenargs, **kwargs) as p:
+[36mapi_1  |[0m   File "/usr/local/lib/python3.7/subprocess.py", line 775, in __init__
+[36mapi_1  |[0m     restore_signals, start_new_session)
+[36mapi_1  |[0m   File "/usr/local/lib/python3.7/subprocess.py", line 1522, in _execute_child
+[36mapi_1  |[0m     raise child_exception_type(errno_num, err_msg, err_filename)
+[36mapi_1  |[0m OSError: [Errno 8] Exec format error: '/app/app.py'
+[36mapi_1  |[0m  * Serving Flask app "app" (lazy loading)
+[36mapi_1  |[0m  * Environment: production
+[36mapi_1  |[0m    WARNING: Do not use the development server in a production environment.
+[36mapi_1  |[0m    Use a production WSGI server instead.
+[36mapi_1  |[0m  * Debug mode: on
+[36mapi_1  |[0m  * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+[36mapi_1  |[0m  * Restarting with stat
+[36mapi_1  |[0m Traceback (most recent call last):
+[36mapi_1  |[0m   File "app.py", line 73, in <module>
+[36mapi_1  |[0m     app.run(host="0.0.0.0", port=80, debug=True)
+[36mapi_1  |[0m   File "/usr/local/lib/python3.7/site-packages/flask/app.py", line 943, in run
+[36mapi_1  |[0m     run_simple(host, port, self, **options)
+[36mapi_1  |[0m   File "/usr/local/lib/python3.7/site-packages/werkzeug/serving.py", line 988, in run_simple
+[36mapi_1  |[0m     run_with_reloader(inner, extra_files, reloader_interval, reloader_type)
+[36mapi_1  |[0m   File "/usr/local/lib/python3.7/site-packages/werkzeug/_reloader.py", line 332, in run_with_reloader
+[36mapi_1  |[0m     sys.exit(reloader.restart_with_reloader())
+[36mapi_1  |[0m   File "/usr/local/lib/python3.7/site-packages/werkzeug/_reloader.py", line 176, in restart_with_reloader
+[36mapi_1  |[0m     exit_code = subprocess.call(args, env=new_environ, close_fds=False)
+[36mapi_1  |[0m   File "/usr/local/lib/python3.7/subprocess.py", line 323, in call
+[36mapi_1  |[0m     with Popen(*popenargs, **kwargs) as p:
+[36mapi_1  |[0m   File "/usr/local/lib/python3.7/subprocess.py", line 775, in __init__
+[36mapi_1  |[0m     restore_signals, start_new_session)
+[36mapi_1  |[0m   File "/usr/local/lib/python3.7/subprocess.py", line 1522, in _execute_child
+[36mapi_1  |[0m     raise child_exception_type(errno_num, err_msg, err_filename)
+[36mapi_1  |[0m OSError: [Errno 8] Exec format error: '/app/app.py'
+[36mapi_1  |[0m  * Serving Flask app "app" (lazy loading)
+[36mapi_1  |[0m  * Environment: production
+[36mapi_1  |[0m    WARNING: Do not use the development server in a production environment.
+[36mapi_1  |[0m    Use a production WSGI server instead.
+[36mapi_1  |[0m  * Debug mode: on
+[36mapi_1  |[0m  * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+[36mapi_1  |[0m  * Restarting with stat
+[36mapi_1  |[0m Traceback (most recent call last):
+[36mapi_1  |[0m   File "app.py", line 73, in <module>
+[36mapi_1  |[0m     app.run(host="0.0.0.0", port=80, debug=True)
+[36mapi_1  |[0m   File "/usr/local/lib/python3.7/site-packages/flask/app.py", line 943, in run
+[36mapi_1  |[0m     run_simple(host, port, self, **options)
+[36mapi_1  |[0m   File "/usr/local/lib/python3.7/site-packages/werkzeug/serving.py", line 988, in run_simple
+[36mapi_1  |[0m     run_with_reloader(inner, extra_files, reloader_interval, reloader_type)
+[36mapi_1  |[0m   File "/usr/local/lib/python3.7/site-packages/werkzeug/_reloader.py", line 332, in run_with_reloader
+[36mapi_1  |[0m     sys.exit(reloader.restart_with_reloader())
+[36mapi_1  |[0m   File "/usr/local/lib/python3.7/site-packages/werkzeug/_reloader.py", line 176, in restart_with_reloader
+[36mapi_1  |[0m     exit_code = subprocess.call(args, env=new_environ, close_fds=False)
+[36mapi_1  |[0m   File "/usr/local/lib/python3.7/subprocess.py", line 323, in call
+[36mapi_1  |[0m     with Popen(*popenargs, **kwargs) as p:
+[36mapi_1  |[0m   File "/usr/local/lib/python3.7/subprocess.py", line 775, in __init__
+[36mapi_1  |[0m     restore_signals, start_new_session)
+[36mapi_1  |[0m   File "/usr/local/lib/python3.7/subprocess.py", line 1522, in _execute_child
+[36mapi_1  |[0m     raise child_exception_type(errno_num, err_msg, err_filename)
+[36mapi_1  |[0m OSError: [Errno 8] Exec format error: '/app/app.py'
+[36mapi_1  |[0m  * Serving Flask app "app" (lazy loading)
+[36mapi_1  |[0m  * Environment: production
+[36mapi_1  |[0m    WARNING: Do not use the development server in a production environment.
+[36mapi_1  |[0m    Use a production WSGI server instead.
+[36mapi_1  |[0m  * Debug mode: on
+[36mapi_1  |[0m  * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+[36mapi_1  |[0m  * Restarting with stat
+[36mapi_1  |[0m Traceback (most recent call last):
+[36mapi_1  |[0m   File "app.py", line 73, in <module>
+[36mapi_1  |[0m     app.run(host="0.0.0.0", port=80, debug=True)
+[36mapi_1  |[0m   File "/usr/local/lib/python3.7/site-packages/flask/app.py", line 943, in run
+[36mapi_1  |[0m     run_simple(host, port, self, **options)
+[36mapi_1  |[0m   File "/usr/local/lib/python3.7/site-packages/werkzeug/serving.py", line 988, in run_simple
+[36mapi_1  |[0m     run_with_reloader(inner, extra_files, reloader_interval, reloader_type)
+[36mapi_1  |[0m   File "/usr/local/lib/python3.7/site-packages/werkzeug/_reloader.py", line 332, in run_with_reloader
+[36mapi_1  |[0m     sys.exit(reloader.restart_with_reloader())
+[36mapi_1  |[0m   File "/usr/local/lib/python3.7/site-packages/werkzeug/_reloader.py", line 176, in restart_with_reloader
+[36mapi_1  |[0m     exit_code = subprocess.call(args, env=new_environ, close_fds=False)
+[36mapi_1  |[0m   File "/usr/local/lib/python3.7/subprocess.py", line 323, in call
+[36mapi_1  |[0m     with Popen(*popenargs, **kwargs) as p:
+[36mapi_1  |[0m   File "/usr/local/lib/python3.7/subprocess.py", line 775, in __init__
+[36mapi_1  |[0m     restore_signals, start_new_session)
+[36mapi_1  |[0m   File "/usr/local/lib/python3.7/subprocess.py", line 1522, in _execute_child
+[36mapi_1  |[0m     raise child_exception_type(errno_num, err_msg, err_filename)
+[36mapi_1  |[0m OSError: [Errno 8] Exec format error: '/app/app.py'
+[36mapi_1  |[0m  * Serving Flask app "app" (lazy loading)
+[36mapi_1  |[0m  * Environment: production
+[36mapi_1  |[0m    WARNING: Do not use the development server in a production environment.
+[36mapi_1  |[0m    Use a production WSGI server instead.
+[36mapi_1  |[0m  * Debug mode: on
+[36mapi_1  |[0m  * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+[36mapi_1  |[0m  * Restarting with stat
+[36mapi_1  |[0m Traceback (most recent call last):
+[36mapi_1  |[0m   File "app.py", line 73, in <module>
+[36mapi_1  |[0m     app.run(host="0.0.0.0", port=80, debug=True)
+[36mapi_1  |[0m   File "/usr/local/lib/python3.7/site-packages/flask/app.py", line 943, in run
+[36mapi_1  |[0m     run_simple(host, port, self, **options)
+[36mapi_1  |[0m   File "/usr/local/lib/python3.7/site-packages/werkzeug/serving.py", line 988, in run_simple
+[36mapi_1  |[0m     run_with_reloader(inner, extra_files, reloader_interval, reloader_type)
+[36mapi_1  |[0m   File "/usr/local/lib/python3.7/site-packages/werkzeug/_reloader.py", line 332, in run_with_reloader
+[36mapi_1  |[0m     sys.exit(reloader.restart_with_reloader())
+[36mapi_1  |[0m   File "/usr/local/lib/python3.7/site-packages/werkzeug/_reloader.py", line 176, in restart_with_reloader
+[36mapi_1  |[0m     exit_code = subprocess.call(args, env=new_environ, close_fds=False)
+[36mapi_1  |[0m   File "/usr/local/lib/python3.7/subprocess.py", line 323, in call
+[36mapi_1  |[0m     with Popen(*popenargs, **kwargs) as p:
+[36mapi_1  |[0m   File "/usr/local/lib/python3.7/subprocess.py", line 775, in __init__
+[36mapi_1  |[0m     restore_signals, start_new_session)
+[36mapi_1  |[0m   File "/usr/local/lib/python3.7/subprocess.py", line 1522, in _execute_child
+[36mapi_1  |[0m     raise child_exception_type(errno_num, err_msg, err_filename)
+[36mapi_1  |[0m OSError: [Errno 8] Exec format error: '/app/app.py'
+[36mapi_1  |[0m  * Serving Flask app "app" (lazy loading)
+[36mapi_1  |[0m  * Environment: production
+[36mapi_1  |[0m    WARNING: Do not use the development server in a production environment.
+[36mapi_1  |[0m    Use a production WSGI server instead.
+[36mapi_1  |[0m  * Debug mode: on
+[36mapi_1  |[0m  * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+[36mapi_1  |[0m  * Restarting with stat
+[36mapi_1  |[0m Traceback (most recent call last):
+[36mapi_1  |[0m   File "app.py", line 73, in <module>
+[36mapi_1  |[0m     app.run(host="0.0.0.0", port=80, debug=True)
+[36mapi_1  |[0m   File "/usr/local/lib/python3.7/site-packages/flask/app.py", line 943, in run
+[36mapi_1  |[0m     run_simple(host, port, self, **options)
+[36mapi_1  |[0m   File "/usr/local/lib/python3.7/site-packages/werkzeug/serving.py", line 988, in run_simple
+[36mapi_1  |[0m     run_with_reloader(inner, extra_files, reloader_interval, reloader_type)
+[36mapi_1  |[0m   File "/usr/local/lib/python3.7/site-packages/werkzeug/_reloader.py", line 332, in run_with_reloader
+[36mapi_1  |[0m     sys.exit(reloader.restart_with_reloader())
+[36mapi_1  |[0m   File "/usr/local/lib/python3.7/site-packages/werkzeug/_reloader.py", line 176, in restart_with_reloader
+[36mapi_1  |[0m     exit_code = subprocess.call(args, env=new_environ, close_fds=False)
+[36mapi_1  |[0m   File "/usr/local/lib/python3.7/subprocess.py", line 323, in call
+[36mapi_1  |[0m     with Popen(*popenargs, **kwargs) as p:
+[36mapi_1  |[0m   File "/usr/local/lib/python3.7/subprocess.py", line 775, in __init__
+[36mapi_1  |[0m     restore_signals, start_new_session)
+[36mapi_1  |[0m   File "/usr/local/lib/python3.7/subprocess.py", line 1522, in _execute_child
+[36mapi_1  |[0m     raise child_exception_type(errno_num, err_msg, err_filename)
+[36mapi_1  |[0m OSError: [Errno 8] Exec format error: '/app/app.py'
+[36mapi_1  |[0m  * Serving Flask app "app" (lazy loading)
+[36mapi_1  |[0m  * Environment: production
+[36mapi_1  |[0m    WARNING: Do not use the development server in a production environment.
+[36mapi_1  |[0m    Use a production WSGI server instead.
+[36mapi_1  |[0m  * Debug mode: on
+[36mapi_1  |[0m  * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+[36mapi_1  |[0m  * Restarting with stat
+[36mapi_1  |[0m Traceback (most recent call last):
+[36mapi_1  |[0m   File "app.py", line 73, in <module>
+[36mapi_1  |[0m     app.run(host="0.0.0.0", port=80, debug=True)
+[36mapi_1  |[0m   File "/usr/local/lib/python3.7/site-packages/flask/app.py", line 943, in run
+[36mapi_1  |[0m     run_simple(host, port, self, **options)
+[36mapi_1  |[0m   File "/usr/local/lib/python3.7/site-packages/werkzeug/serving.py", line 988, in run_simple
+[36mapi_1  |[0m     run_with_reloader(inner, extra_files, reloader_interval, reloader_type)
+[36mapi_1  |[0m   File "/usr/local/lib/python3.7/site-packages/werkzeug/_reloader.py", line 332, in run_with_reloader
+[36mapi_1  |[0m     sys.exit(reloader.restart_with_reloader())
+[36mapi_1  |[0m   File "/usr/local/lib/python3.7/site-packages/werkzeug/_reloader.py", line 176, in restart_with_reloader
+[36mapi_1  |[0m     exit_code = subprocess.call(args, env=new_environ, close_fds=False)
+[36mapi_1  |[0m   File "/usr/local/lib/python3.7/subprocess.py", line 323, in call
+[36mapi_1  |[0m     with Popen(*popenargs, **kwargs) as p:
+[36mapi_1  |[0m   File "/usr/local/lib/python3.7/subprocess.py", line 775, in __init__
+[36mapi_1  |[0m     restore_signals, start_new_session)
+[36mapi_1  |[0m   File "/usr/local/lib/python3.7/subprocess.py", line 1522, in _execute_child
+[36mapi_1  |[0m     raise child_exception_type(errno_num, err_msg, err_filename)
+[36mapi_1  |[0m OSError: [Errno 8] Exec format error: '/app/app.py'
+[36mwebapi_api_1 exited with code 1
+[0m
